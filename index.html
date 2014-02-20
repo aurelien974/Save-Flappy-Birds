@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--
+	"Save Flappy Birds" est un jeu créé en février 2014 par Aurélien Picolet pour la Flappy Jam.
+	"Save Flappy Birds" is a game created in February 2014 by Aurélien Picolet for the Flappy Jam.
+-->
+
+	<head>
+		<meta charset="utf-8" />
+		<style>/* Removes Mobile Highlight */ *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}</style>
+		<title>Save Flappy Birds - Aurélien Picolet</title>
+		<script src="phaser.min.js"></script>
+	</head>
+ 
+	<body>
+		<div id="gameContainer"></div>
+		<script type="text/javascript">
+			var SFB = {};
+			SFB.bestScore = 0;
+			var game;
+			
+			window.onload = function() {
+
+				game = new Phaser.Game(320, 480, Phaser.AUTO, 'gameContainer');
+				
+				game.state.add('boot', SFB.Boot);
+				game.state.add('preloader', SFB.Preloader);
+				game.state.add('menu', SFB.Menu);
+				game.state.add('pregame', SFB.Pregame);
+				game.state.add('game', SFB.Game);
+
+				game.state.start('boot');
+
+			};
+
+		</script>
+		<script src="SFB_boot.js"></script>
+		<script src="SFB_preloader.js"></script>
+		<script src="SFB_menu.js"></script>
+		<script src="SFB_pregame.js"></script>
+		<script src="SFB_game.js"></script>
+
+	</body>
+</html>
