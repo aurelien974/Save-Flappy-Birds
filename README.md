@@ -18,14 +18,12 @@ You can play either :
 - with a keyboard : T to jump with the Lady, Y with the Man (and M to mute)
 - with a mouse : click on the Left to jump with the Lady, on the Right with the Man
 - on a touchscreen : same as with a mouse
-- 
+
 The controls both allow to jump and swap characters. Be careful, the latter haven't got the same weight !
 
 ##Screenshots
 
-*In game, jumping with the heavy man :* ![Save Flappy Birds Screenshot Man](screenshots/screenshot_save_flappy_birds_1.png)
-
-*In game, jumping with the light lady :* ![Save Flappy Birds Screenshot Lady](screenshots/screenshot_save_flappy_birds_2.png)
+![Save Flappy Birds Screenshot Man](screenshots/screenshot_save_flappy_birds_1.png) ![Save Flappy Birds Screenshot Lady](screenshots/screenshot_save_flappy_birds_2.png)
 
 ##Thanks
 
