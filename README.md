@@ -24,6 +24,7 @@ The controls both allow to jump and swap characters. Be careful, the latter have
 ##Screenshots
 
 ![Save Flappy Birds Screenshot Man](screenshots/screenshot_save_flappy_birds_1.png)
+
 ![Save Flappy Birds Screenshot Lady](screenshots/screenshot_save_flappy_birds_2.png)
 
 ##Thanks
